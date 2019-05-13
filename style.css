@@ -1,0 +1,2729 @@
+/* Шрифты  */
+@font-face {
+    font-family: 'Trend Slab Four';
+    src: url('font/TrendSlabFour.eot');
+    src: local('Trend Slab Four'), local('TrendSlabFour'),
+        url('font/TrendSlabFour.eot?#iefix') format('embedded-opentype'),
+        url('font/TrendSlabFour.woff') format('woff'),
+        url('font/TrendSlabFour.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+  font-family: Pompadur;
+  src: url(font/HelveticaNeueCyr-Medium.ttf);
+ }
+ @font-face {
+   font-family: file;
+   src: url(font/file.otf);
+  }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Pompadur;
+  box-sizing: border-box;
+  color: #212121;
+}
+/* Стили главное стр */
+body{
+
+
+}
+.imgMain {
+  background-image: url(img/mainfon1.png);
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  background-size: cover;
+  background-color: #fafafa;
+}
+.fonContent {
+  position:absolute;
+
+  /* margin-right: 1000px; */
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+background-position: center;
+border-bottom:  2px solid black;
+padding-top: 6px;
+}
+header {
+ /* box-shadow: 1px 1px 1px 1px; */
+
+}
+
+/* Главные блоки */
+
+.center {
+position:relative;
+width:100%;
+height: 1750px;
+background-color:#fff;
+}
+.center:before{
+  background: inherit;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 110%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-5deg);
+      transform-origin: 100%;
+      z-index: 0;
+}
+.WaveDiv {
+  background: #212121;
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   height: 150px;
+   z-index: -1;
+}
+/* Параметры текста Дор После */
+#do  {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+#do i  {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+#Posle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+#Posle i {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+/* Скос после Контента */
+.WaveDiv:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 160%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.CarImgBofore {
+  height: 1000px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  z-index: -2;
+  background-image: url(img/v1080.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  background-size: cover;
+  background-color: #fafafa;
+}
+.CarImgAfter {
+  height: 1000px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  z-index: -3;
+  background-image: url(img/bez1080.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  background-size: cover;
+  background-color: #fafafa;
+}
+
+.lineCar {
+  width: 100%;
+  height: 4px;
+  background-color: #212121;
+  margin-top: 1000px;
+}
+
+/* Параметры Таблиц товаров */
+.SelTableHost {
+background: #212121;
+position: relative;
+z-index: 1;
+width: 100%;
+height: 210px;
+}
+.SelTableHost:before {
+  margin-top: 1000PX;
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height:100%;
+  top: 0;
+  position: relative;
+  right: 0;
+  transform: skewY(5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.Continue {
+  width: 100%;
+  height: 2080px;
+  background-color: white;
+}
+/* Карта */
+.MapBlock {
+  margin-top: 60px;
+  width: 100%;
+  height: 400px;
+  background-color: #212121;
+  border-top: 5PX solid #212121;
+}
+/*  корректировки */
+#marTopCor {
+  margin-top: 60px;
+}
+#MarGinCorect {
+  margin-top: -130px;
+}
+
+.Continue h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: -90px;
+  position: relative;
+  z-index: 2;
+}
+.Continue h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+/* Таблица и элементы */
+.DivManiTable {
+  margin-top: 20px;
+  width: 95%;
+  margin-left: 5%;
+  height: 600px;
+  /* background-color: #30a100; */
+  /* background-color: #1AB61A; */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-image: url(img/greensc.jpg);
+  background-position: center;
+  /* background-size: 1200px; */
+}
+.elemMT {
+  width: 26%;
+  height: 460PX;
+  background-color: white;
+  float: left;
+ margin-top: 70px;
+margin-left: 4.1%;
+text-align: center;
+  border-radius: 10px;
+  border: 3px solid #212121;
+}
+.elemMT:hover {
+  box-shadow: 1px 1px 10px 2px;
+ cursor: pointer;
+}
+.elemMT img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+.elemMT h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.elemLMT {
+  width: 26%;
+  height: 460PX;
+  background-color: white;
+  float: right;
+  margin-top: 70px;
+  margin-right: 4.1%;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid #212121;
+}
+.elemLMT:hover {
+  box-shadow: 1px 1px 10px 2px;
+  cursor: pointer;
+}
+.elemLMT img {
+  width: 100%;
+  height: auto;
+    border-radius: 30px;
+}
+.elemLMT h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+/* Вторая таблица */
+.DivManiTable1 {
+  margin-top: 20px;
+  width: 95%;
+  margin-right: 4%;
+  height: 600px;
+  background-color: #212121;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+    background-image: url(img/grunt.jpg);
+}
+/* Главное предложение */
+.mainSell {
+  -webkit-box-shadow: 0px 3px 20px 5px rgba(0,0,0,0.39);
+-moz-box-shadow: 0px 3px 20px 5px rgba(0,0,0,0.39);
+box-shadow: 0px 3px 20px 5px rgba(0,0,0,0.39);
+  position:relative;
+  background-color: white;
+  width: 20%;
+  height: 550px;
+  float: left;
+margin-left: 2%;
+  margin-top: -15%;
+  z-index: 1;
+  border-radius: 10px;
+  border: 1px solid #212121;
+  transition: 1s;
+  border-bottom: 6px solid #1AB61A;
+  /* border-top: 4px solid #212121; */
+}
+
+
+
+.mainSell:hover {
+ /* box-shadow: 1px 1px 10px 2px; */
+cursor: pointer;
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0);
+box-shadow: 0px 0px 5px 5px rgba(0,0,0,0);
+}
+.mainSell img {
+  width:Calc(100% - 10px);
+  height: auto;
+  margin: 5px;
+}
+.mainSell h3 {
+  text-align: center;
+  font-size: 28px;
+}
+.mainSell p {
+    margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 90%;
+}
+#MarginCorect {
+  margin-left: 18%;
+}
+#textSell {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+/* Продающие тесты */
+.textSell {
+  position: absolute;
+  width: 70%;
+  margin-top: 380px;
+margin-left: 15%;
+}
+.textSelly {
+  position: absolute;
+  width: 70%;
+  margin-top: 5%;
+margin-left: 15%;
+}
+/* Таблица Иконок и тектса */
+.circleHost {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: 15%;
+  margin-bottom: 150px;
+}
+.circle {
+  width: 10%;
+  height: 100px;
+  margin-left: 1%;
+  float: left;
+  text-align: center;
+}
+.circle h3 {
+  margin-top: 45px;
+  color: #fff;
+}
+.circle img {
+  width: 100px;
+  filter: brightness(0) invert(1);
+}
+#maCor {
+  margin-left: 23%;
+}
+#ClearBA {
+  margin-left: 23%;
+  clear: right;
+}
+
+/* Мягкая линия написано жИ */
+#lineFine {
+  position: relative;
+  width: 90%;
+  /* border-bottom: 3px solid #1AB61A; */
+  border-top: 3px solid #fff;
+  margin: auto;
+
+}
+.imgTextNoSL {
+  margin: auto;
+  margin-top: 30px;
+  width: 60%;
+  height: 200PX;
+border: 1px solid #212121;
+background-color: #fff;
+border-radius: 10px;
+border-right: 6px solid #1AB61A;
+}
+.imgTextNoSL img {
+  width: auto;
+  height: 100%;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+}
+.imgTextNoSL p {
+margin: 40px;
+margin-left: 400px;
+color: #212121;
+
+}
+.imgTextNoSL h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+color: #212121;
+}
+.imgSLHost button {
+margin-left: 40%;
+margin-top: 100px;
+width: 20%;
+height: 70px;
+background-color: #212121;
+border: 0;
+outline: none;
+font-size: 40px;
+color: white;
+border-radius: 20px;
+border: 1px solid white;
+ transition: 0.5s;
+}
+.imgSLHost button:hover {
+  background-color: #E32020;
+  border: 1px solid #E32020;
+  cursor: pointer;
+}
+/*  */
+/* Слайдер */
+.imgSLHost {
+  position: absolute;
+  margin-top: 13%;
+  width: 100%;
+  height: 900px;
+  float: left;
+  z-index: 10;
+}
+/* Продающие тексты */
+.Repeir5min {
+  color: white;
+  margin-top: 1%;
+}
+.TextForImgHost {
+  margin-top: 15%;
+  float: left;
+  margin-left: 1%;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  padding: 50px;
+  border-bottom: 6px solid #1AB61A;
+  border-radius: 10px;
+}
+.TextForImgHost h3 {
+  margin-top: 30px;
+}
+.TextForImgHost p {
+  margin-top: 15px;
+}
+/* Слоган */
+#MainText {
+  margin-top: 250px;
+  text-align: center;
+font-family:Pompadur;
+font-size: 4em;
+color:orange;
+text-shadow: 1px 0 1px #000,
+0 1px 1px #000,
+-1px 0 1px #000,
+0 -1px 1px #000;
+
+
+}
+/* Название проекта */
+#MainTextLogo {
+  font-family: 'Trend Slab Four';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 6em;
+  text-align: center;
+
+  color:orange;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+.colorRed {
+  font-family: 'Trend Slab Four';
+  color:#E32020;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+.colorBlue {
+  font-family: 'Trend Slab Four';
+  color:#2963d2;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+.colorYellow {
+  font-family: 'Trend Slab Four';
+  color:#E3A020;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+.colorGreen {
+  font-family: 'Trend Slab Four';
+  color:#1AB61A;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+.colorSiren {
+  font-family: 'Trend Slab Four';
+  color:#bb1bd6;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+}
+/* Логотип и меню */
+.logo {
+  margin-top: 10px;
+  height:60px;
+  width:60px;
+  margin-left: 10%;
+  float: left;
+}
+#LogoheaerText {
+  margin-left: 5px;
+  margin-top: 28px;
+  float: left;
+  font-family: file;
+  font-size: 20px;
+}
+.menu {
+  width: 850px;
+  height: 20px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 32px;
+}
+a.menuA {
+margin-left: 3%;
+text-decoration: none;
+color: black;
+font-size: 1em;
+font-weight: 550;
+}
+a.menuA {
+  font-size: 0.7em;
+}
+a.menuA:hover {
+  color: #D12A3C;
+}
+.SeatingsMainIMG {
+  width: 100%;
+  border-radius: 5px;
+}
+/* Иконка названием сайта */
+#wtf i {
+    color:#fff ;
+}
+#wtf {
+  font-size: 3em;
+  text-align: center;
+  color:#F4CC00;
+  text-shadow: 1px 0 1px #212121,
+  0 1px 1px #212121,
+  -1px 0 1px #212121,
+  0 -1px 1px #212121;
+  width: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+#wtf:hover {
+  cursor: pointer;
+}
+#hr {
+  border: 2px solid black;
+}
+#ClearB {
+  clear: both;
+  margin-left: 15%;
+}
+.elemOp p {
+  text-align: center;
+  font-size: 0.8em;
+}
+.elemOp h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+  /*Парсултанг*/
+.ContactsMain{
+  width: 70%;
+  height: 1225px;
+  margin-left: 20%;        /*Контакты, самый большой блок*/
+  margin-right: 20%;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+//  border: 2px solid black;
+}
+.ContactsMap{
+  position: absolute;
+  border: 1px solid gray;
+  width: 50%;
+  height: 550px;
+  margin-left: 2%;        /*Контакты, виджет яндекс карты*/
+  margin-top: 65px;
+  float: left;
+
+}
+.ContactsComments
+{
+position: absolute;
+  //border: 1px solid gray;
+  width: 50%;                  /*Контакты, виджет комментариев вконтакте*/
+  left: 2%;
+  //bottom: 10%;
+  margin-top: 700px;
+
+}
+.ContactsVK{
+  position: absolute;
+  //border: 1px solid gray;
+  width: 40%;               /*Контакты, виджет сообщества вконтакте*/
+  right: 2%;
+  margin-top: 700px;
+
+
+}
+.ContactsCont{
+  position:absolute;
+  width: 38%;
+  height: 41.7%;           /*Контакты, блок с контактными данными: адрес, номер...*/
+  margin-left: 60%;
+  margin-top: 65px;
+  text-align: center;
+  //font-size: 1.05em;
+  //border: 2px solid black;
+}
+#Contacts{
+  padding-bottom: 30px;
+  font-size: 2.3em;
+}
+.ContactsString{
+  text-align: left;
+  padding-left: 2%;        /*Контакты, мобильный телефон, телефон, почта, режим, адрес*/
+  padding-top: 10px;
+  display:block;
+  float:left;
+  //border: 2px solid black;
+}
+.ContactsDannie{
+  margin-left: 50%;
+  height: 40px;
+  text-align: center;          /*Контакты, 88005553535, Улица витлея, WP@gmail.com*/
+  padding-left: 2%;
+  padding-top: 10px;
+  font-size: 1.2em;
+  //border: 2px solid black;
+}
+
+.HrCont{
+  margin-top: 2%;     /*Контакты, разделитель*/
+}
+#vk_groups{
+  //border: 2px solid black;
+  padding-left: 3%;          /*Контакты, виджет сообщества вк*/
+  //padding-top: 20px;
+  width: auto;
+}
+body{
+background-image: url(img/fonyBody.png);
+background-repeat: no-repeat;
+background-size: 100%;
+  /* background-position: center; */
+  /* background-size: 2000px; */
+
+}
+.allfooter{
+  position: relative;
+  background-color: #2c373c;  /*Полный футер*/
+  width: 100%;
+  height: 175px;
+  margin: auto;
+}
+.Vkladkafooter a{
+  display: inline-block;
+  width: 20%;
+  padding: .75rem 0;        /*Футер: главная, фак, контакты...*/
+  margin: 0;
+  text-decoration: none;
+  color: #707b80;
+  margin-top: 10px;
+}
+.Vkladkafooter a:hover{
+  color: #fff;
+  text-shaw:0.5px 0.5px 2px black;
+}
+.Vkladkafooter ul li{
+  display: inline;
+  text-align: center;
+}
+.Vkladkafooter{
+  position: absolute;
+  width: 50%;
+  height: 10%;
+  left: 25%;
+  //border: 2px solid black;
+  font-size: 16px;
+}
+  .logotipfooter {
+  margin: auto;
+  position: absolute;
+  width: 10%;
+  margin-left: 85%;
+  //margin-top: 25px;
+  margin-top: 5px;
+  //border: 2px solid black;
+}
+.logofooter h1{
+  color:#fff;
+}
+#youtubelg{
+  margin-left: 3%;
+}
+#vklg{
+  margin-left: 3%;
+}
+#youtubelg:hover{
+  color: red;
+}
+footer{
+  width: 100%;
+}
+i:hover{
+text-shadow:1px 1px 6px black;
+}
+#vklg:hover{
+  color: #45668e;
+  padding-bottom: 10px;
+}
+#facebooklg:hover{
+  color: #3b5998;
+}
+.fa-vk{
+  color: #707b80;
+}
+.fa-facebook-square{
+  color: #707b80;
+}
+.fa-youtube{
+  color: #707b80;
+}
+.adressfooter{
+  margin: auto;
+  width: 10%;
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 25px;
+  //border: 2px solid black;
+}
+.adressfooter p{
+  color: #707b80;
+}
+.logofooter{
+  position: absolute;
+  width: 20%;
+  margin-top: 30px;
+  //border: 2px solid black;
+}
+.Copyfooter{
+  position: absolute;
+  //border: 2px solid black;
+  width: 100%;
+  height: 40px;
+  margin-top: 135px;
+  background-color: #1a1f21;
+}
+.Copyright{
+  position: absolute;
+  margin-top: 147px;
+  margin-left: 2.4%;
+  color: #707b80;
+  font-family: 'museo_sans_cyrl',sans-serif;
+  font-size: 0.9em;
+  //border: 2px solid black;
+}
+.Privacyfooter{
+  position: absolute;
+  color: #707b80;
+  font-family: 'museo_sans_cyrl',sans-serif;
+  font-size: 0.9em;
+  margin-top: 147px;
+  margin-left: 85%;
+  text-decoration: underline;
+  //border: 2px solid black;
+}
+.Termsfooter{
+  position: absolute;
+  color: #707b80;
+  font-family: 'museo_sans_cyrl',sans-serif;
+  font-size: 0.9em;
+  margin-top: 147px;
+  margin-left: 92%;
+  text-decoration: underline;
+  //border: 2px solid black;
+}
+.Privacyfooter:hover, .Termsfooter:hover{
+  color:white;
+}
+/* Адаптивность Сани для станицы Контакты */
+@media screen and (min-width: 1400px) and (max-width: 1599px){
+.ContactsDannie{
+  font-size: 0.9em;
+}
+.ContactsString{
+  font-size: 0.9em;
+}
+#Contacts{
+  font-size: 1.5em;
+}
+.Vkladkafooter a{
+  font-size: 0.9em;
+}
+.Privacyfooter{
+  font-size: 0.8em;
+}
+.Termsfooter{
+  font-size: 0.79em;
+}
+.container a {
+  font-size: 0.9em;
+}
+.Copyright{
+  font-size: 0.8em;
+}
+.adressfooter{
+  font-size: 0.9em;
+}
+.ContactsMap{
+  overflow-y: hidden;
+  height: 450px;
+}
+.ContactsVK{
+  margin-top: 600px;
+}
+.ContactsComments{
+  margin-top: 600px;
+}
+.allfooter{
+  margin-top: -50px;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px){
+  .ContactsDannie{
+    font-size: 0.8em;
+  }
+  .ContactsString{
+    font-size: 0.8em;
+  }
+  #Contacts{
+    font-size: 1.4em;
+  }
+  .Vkladkafooter a{
+    font-size: 0.8em;
+  }
+  .Privacyfooter{
+    font-size: 0.7em;
+  }
+  .Termsfooter{
+    font-size: 0.69em;
+  }
+  .container a {
+    font-size: 0.8em;
+  }
+  .Copyright{
+    font-size: 0.75em;
+  }
+  .adressfooter{
+    font-size: 0.8em;
+  }
+  .ContactsMap{
+    overflow-y: hidden;
+    height: 420px;
+  }
+  .ContactsVK{
+    margin-top: 550px;
+  }
+  .ContactsComments{
+    margin-top: 550px;
+  }
+  .allfooter{
+    margin-top: -110px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .ContactsDannie{
+    font-size: 0.65em;
+
+  }
+  .ContactsString{
+    font-size: 0.65em;
+  }
+  #Contacts{
+    font-size: 1.2em;
+  }
+  .Vkladkafooter a{
+    font-size: 0.67em;
+  }
+  .Privacyfooter{
+    font-size: 0.6em;
+    margin-top: 120px;
+  }
+  .Termsfooter{
+    font-size: 0.56em;
+    margin-top: 120px;
+  }
+  .container a {
+    font-size: 0.65em;
+
+  }
+  .Copyright{
+    font-size: 0.7em;
+    margin-top: 120px;
+  }
+  .adressfooter{
+    font-size: 0.7em;
+  }
+  .ContactsMap{
+    overflow-y: hidden;
+    height: 370px;
+  }
+  .logotipfooter {
+    font-size: 0.8em;
+  }
+  .ContactsVK{
+    margin-top: 500px;
+  }
+  .ContactsComments{
+    margin-top: 500px;
+  }
+  .allfooter{
+    margin-top: -150px;
+    height: 110px;
+
+  }
+  .Copyfooter{
+    margin-top: 110px;
+  }
+  .ContactsMain{
+
+  }
+
+}
+@media screen and (min-width: 990px) and (max-width: 1023px){
+  .ContactsDannie{
+    font-size: 0.65em;
+  }
+  .ContactsString{
+    font-size: 0.65em;
+  }
+  #Contacts{
+    font-size: 1.2em;
+  }
+  .Vkladkafooter a{
+    font-size: 0.65em;
+  }
+  .Privacyfooter{
+    font-size: 0.6em;
+    margin-top: 120px;
+  }
+  .Termsfooter{
+    font-size: 0.55em;
+    margin-top: 120px;
+  }
+  .container a {
+    font-size: 0.65em;
+
+  }
+  .Copyright{
+    font-size: 0.7em;
+    margin-top: 120px;
+
+  }
+  .adressfooter{
+    font-size: 0.7em;
+  }
+  .ContactsMap{
+    overflow-y: hidden;
+    height: 370px;
+
+  }
+  .logotipfooter {
+    font-size: 0.8em;
+  }
+  .ContactsVK{
+    margin-top: 490px;
+  }
+  .ContactsComments{
+    margin-top: 490px;
+  }
+  .allfooter{
+    margin-top: -150px;
+    height: 110px;
+  }
+  .Copyfooter{
+    margin-top: 110px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/* Вкладка Подбор !!!!!!!  */
+.HostContent {
+  height: 2250px;
+  width: 70%;
+  /* background-color: #fafafa; */
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.HostContent h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.imagesLurke {
+  width: 100%;
+  height: 400px;
+  /* background-color: #1AB61A; */
+}
+.imagesLurke img {
+  width: 100%;
+  height: 400px;
+  height: auto;
+  /* background-color: #1AB61A; */
+  border-radius: 30px;
+  webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.ExitBlock {
+  width: 100%;
+  height: 800px;
+  background-color: #212121;
+  float: left;
+  margin-top: 50px;
+}
+.ExitBlock img {
+  width: 100%;
+  height: 800px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 2px;
+}
+.PodborContent {
+  width: 50%;
+  height: 580px;
+  /* background-color: white; */
+  margin-top: 120px;
+  float: left;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+.PodborContent h2 {
+  font-size: 30px;
+  margin-top: 120px;
+}
+.PodborContent p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px){
+.HostContent h1 {
+margin-top: 0px;
+font-size: 1.8em;
+
+}
+.PodborContent h2 {
+font-size: 1.3em;
+margin-top: 100px;
+
+}
+.PodborContent p {
+font-size: 0.9em;
+margin-top: 25px;
+
+}
+.PodborContent {
+height: 450px;
+}
+.HostContent {
+height: 1900px;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px){
+.HostContent h1 {
+margin-top: 0px;
+font-size: 1.6em;
+
+}
+.PodborContent h2 {
+font-size: 1.1em;
+margin-top: 80px;
+
+}
+.PodborContent p {
+font-size: 0.8em;
+margin-top: 20px;
+
+}
+.PodborContent {
+height: 400px;
+}
+
+.HostContent {
+height: 1780px;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+.HostContent h1 {
+font-size: 1.4em;
+margin-top: 0px;
+}
+.PodborContent h2 {
+font-size: 1.1em;
+margin-top: 60px;
+}
+.PodborContent p {
+font-size: 0.65em;
+margin-top: 15px;
+}
+.PodborContent {
+height: 350px;
+}
+.HostContent {
+height: 1650px;
+}
+}
+@media screen and (min-width: 990px) and (max-width: 1023px){
+.HostContent h1 {
+font-size: 1.38em;
+margin-top: 0px;
+}
+.PodborContent h2 {
+font-size: 1.08em;
+margin-top: 58px;
+}
+.PodborContent p {
+font-size: 0.63em;
+}
+.PodborContent {
+height: 340px;
+}
+.HostContent {
+height: 1630px;
+}
+}
+/*  Вкладка IDcars */
+
+
+.MainIDcarsContent {
+  height: 1000px;
+  width: 75%;
+  margin: auto;
+}
+.MainHostIDcars {
+  height: 480px;
+  width: 570px;
+  margin-top: 100px;
+  border: 2px solid lightgray;
+  float: left;
+}
+.MainHostIDcars img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+.TextHost {
+  width: 50%;
+  height: 500px;
+  margin-top: 100px;
+  font-size: 17px;
+  float: right;
+}
+.TextHost font {
+  color: #224A97;
+}
+.headline {
+  margin: auto;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  border-bottom: 2px solid;
+  padding-bottom: 50px;
+}
+.headline font {      /* Выделяю заголовок */
+  color: #212121;
+}
+.TextBlokeYYY_1 {
+  width: 33%;
+  float: left;
+  /* margin-right: 4px; */
+  height: 410px;
+}
+.TextBlokeYYY_2 {
+  width: 33%;
+  float: left;
+  margin-right: 4px;
+  height: 410px;
+}
+.TextBlokeYYY_3 {
+  width: 33%;
+  float: left;
+  height: 410px;
+}
+.inscription {
+  margin: auto;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 700px;
+  border-top: 2px solid;
+  padding-top: 50px;
+}
+.inscription font {     /* Выделаю надпись внизу */
+  color: #E32020;
+}
+
+
+
+
+
+/* Вкладка FAQ */
+.MainHostIFAQ {
+  height: 500px;
+  background-color: red;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+/* Новое меню */
+.BackBlock {
+  position: relative;
+  height: 45px;
+  width: 22%;
+  float: right;
+  margin-top: -25px;
+}
+.Basket {
+  height: 100%;
+  width: 30%;
+  float: left;
+  /* border: 1px solid black; */
+}
+.Basket img {
+  margin-top: -8px;
+  height: 120%;
+  width: auto;
+}
+.Basket img:hover {
+
+animation-name: basketRoll;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+/* Рофл анимация */
+@keyframes basketRoll {
+  100% {
+  transform: rotate(360deg);
+  }
+}
+.SingInOutThis {
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+}
+.SingInOutThis a {
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.SingInOutThis a:hover {
+  color:#E32020;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+ .container ul li {
+  display: inline;
+  text-align: center;
+}
+
+.container a {
+  /* font: 300 100% 'Helvetica Neue', Helvetica, Arial; */
+  display: inline-block;
+  width: 20%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #212121;
+}
+
+.container hr {
+  height: .25rem;
+  width: 20%;
+  margin: 0;
+  background: #E32020;
+  border: none;
+  transition: .2s ease-in-out;
+  margin-top: 14px;
+}
+/* @keyframes bksmm {
+  100% {
+  background-color:#2c373c;
+  color: white ;
+  }
+} */
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
+    color:#E32020;
+}
+.one:active, .two:active, .three:active, .four:active, .five:active {
+    color: #224A97  ;
+}
+
+
+.FAQ {                /* Весь контейнер с иконками и вопросами */
+  width: 48%;
+  height: 2100px;
+  margin: auto;
+  margin-top: 30px;
+
+}
+.questions {           /* Контейнер с вопросами */
+  margin: auto;
+  width: 100%;
+  height: 2100px;
+  float: left;
+
+}
+.question {
+  width: 100%;
+  height: 210px;
+  margin-top: 60px;
+
+
+}
+.questions span {     /* Выделяю вопросы */
+  color: #212121;
+  font-size: 29px;
+}
+ .questions font {    /* Выделяю ответы */
+  color: #224A97;
+  text-align: justify;
+  font-size: 23px;
+}
+.text {
+  float: right;
+  width: 89%;
+  border-bottom: 1px solid;
+  padding-bottom: 40px;
+
+}
+#nadpis {
+  color: #E32020;
+  font-size: 23px;
+}
+.questions i {             /* Выделяю в этом div'e иконки */
+  font-size: 60px;
+  color: #212121;
+
+}
+.icon1 {
+  float: left;
+
+}
+/* Адаптивность главной */
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+  .elemLMT {
+height: 440PX;
+  }
+  .DivManiTable1 {
+  height: 580PX;
+  }
+  .elemMT {
+        height: 440PX;
+  }
+  .DivManiTable {
+      height: 580PX;
+  }
+  .SingInOutThis a {
+    font-size: 14px;
+    margin-top: 17px;
+  }
+}
+.mainSell {
+  height: 500px;
+}
+.center {
+  height: 1980px;
+//background-image: url(img/fonyD.png);
+  background-color: #212121;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .elemLMT {
+height: 400PX;
+  }
+  .DivManiTable1 {
+    height: 540PX;
+  }
+  .elemMT {
+        height: 400PX;
+  }
+  .DivManiTable {
+      height: 540PX;
+  }
+  .CarImgBofore {
+    height: 900px;
+  }
+  .lineCar {
+    margin-top: 900px;
+  }
+  .CarImgAfter {
+    height: 900px;
+  }
+  .SelTableHost {
+    margin-top: -100px;
+  }
+  .center {
+    height: 1600px;
+  }
+  .circleHost {
+    margin-bottom: 140px;
+  }
+  .textSell {
+    margin-top: 340px;
+  }
+  #textSell {
+    font-size: 35px;
+  }
+  .mainSell {
+    height: 450px;
+  }
+  .mainSell p {
+    font-size: 15px;
+    margin-top: 35px;
+  }
+  .mainSell h3 {
+    font-size: 20px;
+  }
+  header {
+  height: 90px;
+  }
+  .logo {
+    margin-top: 9px;
+    width: 55px;
+    height: auto;
+  }
+  #LogoheaerText {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+  #MainText {
+    font-size: 58px;
+    /* margin-top: 228PX; */
+  }
+  #MainTextLogo {
+    font-size: 87px;
+  }
+  #wtf {
+    /* margin-top: 45px; */
+    font-size: 44px;
+  }
+.SingInOutThis a {
+  font-size: 16px;
+  margin-top: 13px;
+  margin-right: 8px;
+}
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .elemLMT {
+height: 370PX;
+  }
+  .DivManiTable1 {
+      height: 510PX;
+  }
+  .elemMT {
+        height: 370PX;
+  }
+  .DivManiTable {
+      height: 510PX;
+  }
+  .CarImgBofore {
+    height: 850px;
+  }
+  .lineCar {
+    margin-top: 850px;
+  }
+  .CarImgAfter {
+    height: 850px;
+  }
+  .SelTableHost {
+    margin-top: -150px;
+  }
+  .center {
+    height: 1550px;
+  }
+  .circleHost {
+    margin-bottom: 130px;
+  }
+  .circle {
+    height: 90px;
+  }
+  .circle img {
+    width: 90px;
+  }
+  .textSell {
+    margin-top: 300px;
+  }
+  #textSell {
+    font-size: 32px;
+  }
+  .imgMain {
+    height: 900px;
+  }
+  .mainSell {
+    height: 400px;
+  }
+  .mainSell p {
+    font-size: 14px;
+    margin-top: 35px;
+  }
+  .mainSell h3 {
+    font-size: 20px;
+  }
+  .container {
+    font-size: 17px;
+  }
+  .SingInOutThis a {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 8px;
+  }
+  header {
+      height: 90px;
+  }
+  .logo {
+    margin-top: 8px;
+    width: 49px;
+    height: auto;
+  }
+#LogoheaerText {
+    margin-top: 23px;
+    font-size: 18px;
+    font-size: 16PX;
+}
+#MainText {
+font-size: 51px;
+/* margin-top: 250PX; */
+}
+#MainTextLogo {
+  font-size: 77px;
+}
+#wtf {
+  /* margin-top: 40px; */
+font-size: 37px;
+}
+
+}
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+  .elemLMT {
+height: 330PX;
+  }
+  .DivManiTable1 {
+    height: 470PX;
+  }
+  .elemMT {
+        height: 330PX;
+  }
+  .DivManiTable {
+      height: 470PX;
+  }
+  .CarImgBofore {
+    height: 800px;
+  }
+  .lineCar {
+    margin-top: 800px;
+  }
+  .CarImgAfter {
+    height: 800px;
+  }
+  .SelTableHost {
+    margin-top: -200px;
+  }
+  .center {
+    height: 1450px;
+  }
+  .circleHost {
+    margin-bottom: 120px;
+  }
+  .circle {
+    height: 85px;
+  }
+  .circle img {
+    width: 85px;
+  }
+  .textSell {
+    margin-top: 270px;
+  }
+  #textSell {
+    font-size: 26px;
+  }
+  .imgMain {
+    height: 800px;
+  }
+  .mainSell {
+    height: 360px;
+  }
+  .mainSell p {
+    font-size: 13px;
+    margin-top: 28px;
+  }
+  .mainSell h3 {
+    font-size: 18px;
+  }
+  .container {
+    font-size: 17px;
+  }
+  .container li {
+  }
+  .SingInOutThis a {
+    font-size: 11px;
+    margin-top: 18px;
+    margin-right: 8px;
+  }
+  .logo {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+header {
+    height: 80px;
+  z-index: 10;
+}
+#LogoheaerText {
+  font-size: 13PX;
+}
+#MainText {
+font-size: 43px;
+/* margin-top: 165PX; */
+}
+#MainTextLogo {
+  font-size: 64px;
+}
+#wtf {
+  /* margin-top: 35px; */
+font-size: 30px;
+}
+}
+@media screen and (min-width: 990px) and (max-width: 1023px) {
+  .elemLMT {
+height: 300PX;
+  }
+  .DivManiTable1 {
+    height: 440PX;
+  }
+  .elemMT {
+        height: 300PX;
+  }
+  .DivManiTable {
+      height: 440PX;
+  }
+  .CarImgBofore {
+    height: 800px;
+  }
+  .lineCar {
+    margin-top: 800px;
+  }
+  .CarImgAfter {
+    height: 800px;
+  }
+  .SelTableHost {
+    margin-top: -200px;
+  }
+  .center {
+    height: 1450px;
+  }
+  .circleHost {
+    margin-bottom: 120px;
+  }
+  .circle {
+    height: 85px;
+  }
+  .circle img {
+    width: 85px;
+  }
+  .textSell {
+    margin-top: 270px;
+  }
+  #textSell {
+    font-size: 26px;
+  }
+  .imgMain {
+    height: 750px;
+  }
+  .mainSell {
+    height: 350px;
+  }
+  .mainSell p {
+    font-size: 12px;
+    margin-top: 25px;
+  }
+  .mainSell h3 {
+    font-size: 18px;
+  }
+  .container li {
+
+  }
+  .SingInOutThis a {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 8px;
+  }
+  .logo {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  header {
+    height: 80px;
+  }
+  #ClearC {
+    margin-top: 20px;
+  }
+  #MaCorect {
+      margin-top: 20px;
+  }
+  #LogoheaerText {
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: 12PX;
+  }
+  #MainText {
+  font-size: 37px;
+  /* margin-top: 140PX; */
+  }
+  #MainTextLogo {
+    font-size: 55px;
+  }
+  #wtf {
+    /* margin-top: 33px; */
+  font-size: 25px;
+  }
+}
+
+
+/* Для FAQ */
+
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+.FAQ {
+  width: 60%;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+.FAQ {
+  width: 65%;
+  height: 2200px;
+}
+}
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+  .FAQ {
+    width: 69%;
+    height: 2250px;
+  }
+  .text {
+    width: 88%;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1023px) {
+  .FAQ {
+    width: 69%;
+    height: 2250px;
+  }
+  .text {
+    width: 87%;
+  }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 989px){
+  .FAQ {
+    width: 69%;
+    height: 2050px;
+  }
+  .text {
+    width: 87%;
+  }
+}
+
+
+@media screen and (min-width: 802px) and (max-width: 899px){
+  .FAQ {
+    width: 70%;
+    height: 2150px;
+  }
+  .text {
+    width: 87%;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 801px) {
+  .FAQ {
+    width: 95%;
+    height: 2700px;
+
+  }
+  .text {
+    width: 85%;
+  }
+  .question {
+    height: 300px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 566px) and (max-width: 767px) {
+  .FAQ {
+    width: 95%;
+    height: 3300px;
+
+  }
+  .text {
+    width: 85%;
+  }
+  .question {
+    height: 400px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 490px) and (max-width: 565px) {
+  .FAQ {
+    width: 95%;
+    height: 2700px;
+
+  }
+  .text {
+    width: 85%;
+  }
+  .question {
+    height: 300px;
+
+  }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 489px) {
+  .FAQ {
+    width: 95%;
+    height: 4150px;
+
+  }
+  .text {
+    width: 75%;
+  }
+  .question {
+    height: 500px;
+
+  }
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 379px) {
+  .FAQ {
+    width: 95%;
+    height: 4000px;
+
+  }
+  .text {
+    width: 70%;
+  }
+  .question {
+    height: 450px;
+
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 339px) {
+  .FAQ {
+    width: 95%;
+    height: 4000px;
+
+  }
+  .text {
+    width: 70%;
+  }
+  .question {
+    height: 450px;
+
+  }
+}
+
+
+
+@media only screen and (max-width: 299px){
+  .FAQ {
+    width: 95%;
+    height: 4000px;
+
+  }
+  .text {
+    width: 70%;
+  }
+  .question {
+    height: 750px;
+
+  }
+}
+
+
+/* Для Как узнать код? */
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .MainIDcarsContent {
+    height: 1050px;
+    width: 80%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 480px;
+    width: 550px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 17px;
+    float: right;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .MainIDcarsContent {
+    height: 1100px;
+    width: 75%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 415px;
+    width: 470px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 15px;
+    float: right;
+  }
+}
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+  .MainIDcarsContent {
+    height: 1050px;
+    width: 75%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 330px;
+    width: 380px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 12px;
+    float: right;
+  }
+  .inscription {
+    margin-top: 600px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1023px) {
+  .MainIDcarsContent {
+    height: 1050px;
+    width: 75%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 310px;
+    width: 360px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 12px;
+    float: right;
+  }
+  .inscription {
+    margin-top: 600px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 989px){
+  .MainIDcarsContent {
+    height: 850px;
+    width: 75%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 270px;
+    width: 310px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 10px;
+    float: right;
+  }
+  .headline {
+
+  }
+  .inscription {
+    margin-top: 550px;
+
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 802px) and (max-width: 899px){
+  .MainIDcarsContent {
+    height: 850px;
+    width: 85%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 270px;
+    width: 310px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 10px;
+    float: right;
+  }
+  .headline {
+    font-size: 15px;
+  }
+  .inscription {
+    margin-top: 550px;
+    font-size: 15px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 801px) {
+  .MainIDcarsContent {
+    height: 900px;
+    width: 75%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 230px;
+    width: 270px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 10px;
+    float: right;
+  }
+  .headline{
+    font-size: 15px;
+  }
+  .inscription {
+    margin-top: 600px;
+    font-size: 15px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+
+@media screen and (min-width: 566px) and (max-width: 767px) {
+  .MainIDcarsContent {
+    height: 850px;
+    width: 90%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 210px;
+    width: 250px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 10px;
+    float: right;
+  }
+  .headline {
+    font-size: 15px;
+  }
+  .inscription {
+    margin-top: 550px;
+    font-size: 15px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+
+@media screen and (min-width: 490px) and (max-width: 565px) {
+  .MainIDcarsContent {
+    height: 850px;
+    width: 95%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 180px;
+    width: 220px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-size: 7px;
+    float: right;
+  }
+  .headline {
+    font-size: 10px;
+  }
+  .inscription {
+    margin-top: 550px;
+    font-size: 10px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 489px) {
+  .MainIDcarsContent {
+    height: 700px;
+    width: 92%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 140px;
+    width: 170px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    font-size: 7px;
+    float: right;
+  }
+  .headline {
+    font-size: 10px;
+  }
+  .inscription {
+    margin-top: 450px;
+    font-size: 10px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 379px) {
+  .MainIDcarsContent {
+    height: 700px;
+    width: 95%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 110px;
+    width: 160px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    font-size: 7px;
+    float: right;
+  }
+  .headline {
+    font-size: 10px;
+  }
+  .inscription {
+    margin-top: 450px;
+    font-size: 10px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 339px) {
+  .MainIDcarsContent {
+    height: 700px;
+    width: 95%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 110px;
+    width: 160px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    font-size: 7px;
+    float: right;
+  }
+  .headline {
+    font-size: 10px;
+  }
+  .inscription {
+    margin-top: 450px;
+    font-size: 10px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }
+}
+
+
+
+@media only screen and (max-width: 299px){
+  .MainIDcarsContent {
+    height: 700px;
+    width: 95%;
+    margin: auto;
+
+  }
+  .MainHostIDcars {
+    height: 110px;
+    width: 160px;
+    margin-top: 100px;
+
+    float: left;
+  }
+  .MainHostIDcars img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .TextHost {
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    font-size: 7px;
+    float: right;
+  }
+  .headline {
+    font-size: 10px;
+  }
+  .inscription {
+    margin-top: 450px;
+    font-size: 10px;
+  }
+  .TextBlokeYYY_1 {
+    width: 30%;
+  }s
+}
+
+
+
+
+
+
+
+
+/* Страница продукта  */
+.MainContentProduct {
+  width: 100%;
+  height: 1000px;
+}
+.ProductContent {
+    width: 60%;
+    height: 700px;
+  /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 100px;
+}
+.imgProduct {
+  width: 50%;
+  height: 100%;
+/* border-right: 1px solid black; */
+  float: left;
+}
+.imgTextSell {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  padding: 40px;
+}
+.imgTextSell p {
+  margin-top: 100px;
+
+}
+.imgTextSell h1 {
+  margin-top: 50px;
+}
+.imagesTrue {
+  width: 100%;
+  height: 500px;
+}
+.imagesTrue img {
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+}
+.imagesTrueFive {
+  width: 100%;
+  height: 150px;
+  margin-top: 60px;
+  border-top: 1px solid black;
+  /* border-right: 1px solid black; */
+}
+.textForm {
+  background-color: red;
+  width: 350px;
+}
+.PayBlock {
+  margin-top: 92px;
+  width: 100%;
+  height: 100px;
+}
+.PayBlock button {
+  background-color: white;
+  width: 300px;
+  height: 60px;
+  border: 0;
+  border-top: 2px solid red;
+  /* border-radius: 20px; */
+  outline: none;
+  font-size: 20px;
+}
+.PayBlock button:hover {
+  animation-name: bakred;
+    color: white;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+@keyframes bakred {
+100% {
+  background-color: red;
+}
+}
+.MiniImg {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+}
+.MiniImg img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+.FonNeBody {
+  width: 100%;
+  height: 900px;
+  /* background-image: url(img/SellIMG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed; */
+  background-color: #fff;
+  padding-top: 50px;
+}
+.menuBlokFonNeBody {
+  width: 100%;
+  text-align: center;
+}
+.CorectorBlock {
+  margin-top: 90px;
+  width: 17.5%;
+  height: 450px;
+  background-color: #fff;
+  float: left;
+  margin-left: 2%;
+  padding: 15px;
+  position: relative;
+  border: 1px solid black;
+  height: auto;
+
+}
+.CorectorBlock img {
+  width: 100%;
+  transform: scale(0.38);
+  margin-top: -96%;
+  //border: 2px solid black;
+  position: absolute;
+  margin-left: -50%;
+
+}
+
+.CorectorBlock h3 {
+  margin-top: 150%;
+}
+.CorectorBlock1 {
+  margin-top: 90px;
+  width: 17.5%;
+  height: 450px;
+  background-color: #fff;
+  float: left;
+  margin-left: 2%;
+  padding: 15px;
+  position: relative;
+  border: 1px solid black;
+  height: auto;
+
+}
+.CorectorBlock1 img {
+  width: 100%;
+  transform: scale(0.42);
+  margin-top: -70%;
+  //border: 2px solid black;
+  position: absolute;
+  margin-left: -50%;
+
+}
+
+.CorectorBlock1 h3 {
+  margin-top: 150%;
+}
+.CorectorBlock2 {
+  margin-top: 90px;
+  width: 17.5%;
+  height: 450px;
+  background-color: #fff;
+  float: left;
+  margin-left: 2%;
+  padding: 15px;
+  position: relative;
+  border: 1px solid black;
+  height: auto;
+
+}
+.CorectorBlock2 img {
+  width: 100%;
+  transform: scale(1);
+  margin-top: 15%;
+  //border: 2px solid black;
+  position: absolute;
+  margin-left: -50%;
+
+}
+
+.CorectorBlock2 h3 {
+  margin-top: 150%;
+}
+.CorectorBlock p {
+  //margin-top: -220px;
+}
+#cORECTmARGIN {
+  margin-left: 12%;
+}
+.CorectorBlock:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px;
+}
+.CorectorBlock1:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px;
+}
+.CorectorBlock2:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px;
+}
+.fonAnbody {
+  width: 100%;
+  height: 700px;
+  background-image: url(img/SellIMG.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment:fixed;
+  background-size: 100%;
+  text-align: right;
+  padding-top: 300PX;
+}
+.fonAnbodyA {
+  width: 100%;
+  height: 700px;
+  background-image: url(img/bballo.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment:fixed;
+  background-size: 100%;
+  text-align: right;
+  padding-top: 300PX;
+}
+.fonAnbodyB {
+  width: 100%;
+  height: 700px;
+  background-image: url(img/paint.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment:fixed;
+  background-size: 100%;
+  text-align: right;
+  padding-top: 300PX;
+}
+.fonAnbody h2 {
+  font-family:Pompadur;
+  font-size: 3em;
+  color:#fff;
+  text-shadow: 1px 0 1px #000,
+  0 1px 1px #000,
+  -1px 0 1px #000,
+  0 -1px 1px #000;
+margin-right: 2%;
+
+}
+#butComp {
+  margin-left: 20%;
+margin-top: 100px;
+width: 60%;
+height: 70px;
+background-color: #fff;
+border: 0;
+outline: none;
+font-size: 30px;
+color: #212121;
+border-radius: 20px;
+border: 1px solid #212121;
+ transition: 0.5s;
+}
+ #butComp:hover {
+  background-color: #E32020;
+  border: 1px solid #E32020;
+  cursor: pointer;
+  color: #fff;
+}

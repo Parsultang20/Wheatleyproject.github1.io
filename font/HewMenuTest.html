@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple CSS Sliding Underline Menu</title>
+
+
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 20%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+hr {
+  height: .25rem;
+  width: 20%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.two:hover ~ hr {
+  margin-left: 20%;
+}
+
+.three:hover ~ hr {
+  margin-left: 40%;
+}
+
+.four:hover ~ hr {
+  margin-left: 60%;
+}
+.five:hover ~ hr {
+  margin-left: 80%;
+}
+header {
+  /* box-shadow: 1px 1px 10px 2px; */
+  /* border-bottom: 1px solid black; */
+  height: 65px;
+}
+    </style>
+
+
+</head>
+
+<body>
+  <header>
+  <div class="container">
+
+  <ul>
+    <li class="one"><a href="#">Главная</a></li><!--
+ --><li class="two"><a href="#">Контакты</a></li><!--
+ --><li class="three"><a href="#">Подбор Автоэмали</a></li><!--
+ --><li class="four"><a href="#">Как узнать код</a></li><!--
+ --><li class="five"><a href="#">FAQ</a></li>
+   <hr/>
+  </ul>
+</div>
+  </header>
+
+
+</body>
+</html>
